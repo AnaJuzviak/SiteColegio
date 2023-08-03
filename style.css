@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+body {
+    font-size: 100%; /*diminui a letra*/
+    background: linear-gradient(rgb(81, 123, 136), rgb(119, 198, 230));
+ }
+
+ .cabecalho {
+    display: flex; /*alinha na horizontal*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+ }
+
+ .cabecalho-img { /*logo alura*/
+    height: 40px;
+
+ }
+
+ .cabecalho-menu {
+    display: flex;
+    gap: 30px
+ }
+ .cabecalho-botao{
+ background-color:rgba(42, 82, 94, 0.651) ;
+ border:none;
+ }
+
+ .cabecalho-menu-item { /*muda as palavras do cabecalho*/
+    font-family: 'Sarala', sans-serif;
+    color: rgb(252, 250, 250);
+    font-weight: 400;
+    font-size: 18px;
+ }
+
+ .texto { /*main-principal*/
+    border-top: 0.199px solid white;
+ }
+
+ .texto-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+ 
+ .texto-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 0 36px;
+    padding-top: 20px;
+
+ }
+
+ .text { /*define o paragrafo*/
+   color:white;
+   font-size: 30px;
+   padding-left: 30px;
+   padding-top: 19px;
+   text-indent:1em;
+   line-height:100%;
+   
+ }
+ .falseread{
+   padding: 10px;
+   color: white; }
+
+ .imagem-texto {
+    margin: 0 25px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+
+ }
+
+ .estudantes-titulo {
+    padding: 0 24px;
+    color: black;
+    text-align:center;
+    padding: 50px 0;
+ }
+
+ .estudantes-imagem {
+    width: 220px;
+ }
+
+ .estudantes-icone {
+    width: 24px;
+ }
+
+ .estudantes-principal {
+    text-align: center;
+ }
+
+ 
+
+ .estudantes-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-around;
+    
+ }
+
+ .rodape {
+    padding: 35px;
+    border-top: 0.4px solid white;
+ }
+
+ .rodape-img {
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+ }
